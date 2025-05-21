@@ -1,0 +1,25 @@
+# Folders to Ignore
+/Image_files/
+/cleaned_and_ready_for_use_data/
+
+#ignore files
+demo_data_for_testing.ipynb
+
+
+# Ignore checkpoints and model weights
+*.pt
+*.pth
+
+# Ignore temporary or cache files
+*.log
+__pycache__/
+*.pyc
+*.ipynb_checkpoints
+
+# Ignore system files
+.DS_Store
+
+# Ignore Jupyter hidden folders
+.ipynb_checkpoints/
+
+.~lock.*
