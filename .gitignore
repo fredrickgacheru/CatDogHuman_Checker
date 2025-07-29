@@ -1,3 +1,44 @@
+# Ignore folders
+/Image_files/
+/cleaned_and_ready_for_use_data/
+/__pycache__/
+/.ipynb_checkpoints/
+.env/
+venv/
+env/
+
+# Ignore individual files
+demo_data_for_testing.ipynb
+
+# Ignore model weights and checkpoints
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# Ignore Jupyter and notebook junk
+*.ipynb_checkpoints
+.~lock.*
+*.nbconvert.ipynb
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore system/OS files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+
+# Ignore large data files you don’t want to upload accidentally
+*.csv
+*.tsv
+*.zip
+*.tar.gz
 # Folders to Ignore
 /Image_files/
 /cleaned_and_ready_for_use_data/
