@@ -92,6 +92,9 @@ Built using **Flask**, the web app allows users to upload an image and receive p
 4. Feed into ResNet-50 model
 5. Return predictions + confidence scores
 
+## IMPORTANT NOTE
+For better understanding of the topic, kindly check the "Notes on the Project.docx" file. 
+
 # 📦 Installation
 
 ```bash
@@ -108,4 +111,4 @@ pip install -r requirements.txt
 
 # Run Flask app
 python app.py
-For better understanding of the topic, kindly check the "Notes on the Project.docx" file. 
+
